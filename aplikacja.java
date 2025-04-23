@@ -8,22 +8,30 @@ class Main {
 }
 
 class Choice {
-        public static int input(){
-            Scanner scan=new Scanner(System.in);
-            System.out.println("Daj input");
-            int input=scan.nextInt();
-            return input;
-        }   
+    public static int input(){
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Daj input");
+        int input=scan.nextInt();
+        return input;
+    }
 }
 
 class Write {
     public static void options(int input){
         switch(input){
             case 1: Write.standard();
+            break;
+            case 2: Write.vertical();
+            break;
         }
     }
-    
+
     public static void standard(){
         System.out.println("Hello World!");
+    }
+
+
+    public static void vertical() {
+        System.out.println("H\ne\nl\nl\no\n\nW\no\nr\nl\nd\n!");
     }
 }
