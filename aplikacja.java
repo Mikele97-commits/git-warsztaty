@@ -23,6 +23,8 @@ class Write {
             break;
             case 2: Write.inverse();
             break;
+            case 3: Write.vertical();
+            break;
         }
     }
 
@@ -31,7 +33,12 @@ class Write {
     }
 
 
+
     public static void inverse() {
         System.out.println("!dlroW olleH");
     }
+    public static void vertical() {
+        System.out.println("H\ne\nl\nl\no\n\nW\no\nr\nl\nd\n!");
+    }
+    
 }
