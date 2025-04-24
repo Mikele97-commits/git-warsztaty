@@ -27,11 +27,11 @@ class Write {
     }
 
     public static void standard(){
-        System.out.println("Hello World!");
+        System.out.println("Hello World");
     }
 
 
     public static void vertical() {
-        System.out.println("H\ne\nl\nl\no\n\nW\no\nr\nl\nd\n!");
+        System.out.println("H\ne\nl\nl\no\n\nW\no\nr\nl\nd\n");
     }
 }
