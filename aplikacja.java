@@ -21,7 +21,9 @@ class Write {
         switch(input){
             case 1: Write.standard();
             break;
-            case 2: Write.vertical();
+            case 2: Write.inverse();
+            break;
+            case 3: Write.vertical();
             break;
         }
     }
@@ -31,7 +33,10 @@ class Write {
     }
 
 
-    public static void vertical() {
-        System.out.println("H\ne\nl\nl\no\n\nW\no\nr\nl\nd\n!");
+
+    public static void inverse() {
+        System.out.println("!dlroW olleH");
     }
+
+    
 }
