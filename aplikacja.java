@@ -35,7 +35,7 @@ class Write {
 
     public static void vertical() {
         System.out.println("H\ne\nl\nl\no\n\nW\no\nr\nl\nd\n!");
-
+    }
 
     public static void inverse() {
         System.out.println("!dlroW olleH");
